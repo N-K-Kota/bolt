@@ -196,6 +196,8 @@
 }
 .footer_wrapper{
   background-color: #74cfae;
+}
+.footer-inner{
   padding: 20px 0 25px 0;
 }
 .footer-inner:after{
