@@ -10,6 +10,7 @@
   padding: 15px 0;
   top: 0px;
   width: 100%;
+  z-index: 9;
 }
 .header_content:after{
   content: "";
@@ -30,6 +31,10 @@
   display: block;
   font-size: 12px;
   padding: 14px 12px;
+  transition: color 0.3s linear 0s;
+}
+.header_content_contact:hover{
+  color: #333;
 }
 .header_content_hungermenu{
   color: #f2f2f2;
@@ -50,11 +55,12 @@
 }
 .theme_content_sub{
   color: #c0c0c0;
-  margin-top: 35px;
+  padding-top: 20px;
   font-size: 30px;
 }
 .wecan_wrapper{
   background-color: #74cfae;
+  padding-top: 50px;
 }
 .wecan_content:after{
   content: "";
@@ -63,17 +69,16 @@
 }
 .wecan_content_phoneimg{
   float: left;
-  margin-top: 50px;
   margin-right: 100px;
 }
 .wecan_content_text{
-  padding-top: 60px;
   color: #fff;
   text-align: center;
 }
 .wecan_content_text_header{
   font-size: 24px;
-  margin-bottom: 35px;
+  padding-bottom: 35px;
+  padding-top: 20px;
 }
 .wecan_content_text_sub{
   font-size: 20px;
@@ -204,11 +209,9 @@
     padding: 0;
   }
   .wecan_content_text_header{
-    margin-top: 20px;
+    padding-top: 20px;
   }
-  .wecan_content_text_sub{
-    margin-top: 35px;
-  }
+
   .work_wrapper{
     text-align: center;
   }
@@ -232,9 +235,7 @@
     margin: 0 auto 40px auto;
     text-align: center;
   }
-  .skills_wrapper{
-    padding: 70px 0 88px 0;
-  }
+
   .skills_content_items{
     display: block;
     margin: 0 auto 88px auto;
@@ -249,6 +250,15 @@
   }
   .header_content_hungermenu{
     display: block;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  .theme_wrapper{
+    padding: 160px 0 130px 0;
+  }
+  .theme_content_main{
+    font-size: 80px;
   }
   .nav_wrapper{
     padding: 50px 0;
